@@ -1,0 +1,90 @@
+/* Zentrierte Navbar-Links */
+.navbar-nav {
+    gap: 15px; /* Abstand zwischen Menüpunkten */
+}
+
+/* Dropdown-Menü  */
+.dropdown-menu {
+    min-width: 150px;
+}
+
+/* Navigationsbar Farbe ändern */
+.navbar {
+    background-color: #004080 !important; /* Ändere Primärfarbe */
+}
+.navbar-brand {
+    color: white !important;
+    font-weight: bold;
+}
+
+.navbar .nav-link {
+    color: white !important; /* Textfarbe */
+}
+
+.navbar .nav-link:hover {
+    background-color: #002b5e !important; /* Dunklere Farbe beim Hover */
+}
+
+/* BUTTONS (z.B. Warenkorb) */
+.btn-primary {
+    background-color: #28A745 !important; /* Grün */
+    border-color: #218838 !important;
+}
+
+.btn-primary:hover {
+    background-color: #218838 !important;
+}
+
+footer {
+    background-color: #6C757D !important;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+footer a {
+    color: #0077CC !important; /* Linkfarbe */
+}
+
+/* Footer-Links auf weiß setzen */
+footer a {
+    color: white !important;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Damit Schrift beim hovern betont wird*/
+footer a:hover {
+    color: #D3D3D3 !important; /* Heller Grauton für Hover */
+}
+
+/* Bild auf der über uns Seite*/
+#über-uns .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#über-uns .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Abstand zwischen dem Bild und dem Footer */
+#über-uns .img-fluid {
+    margin-bottom: 50px; /* Passt den Abstand an */
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Prompts die genutzt wurden
+" Zeige mir wie ich Abstand zwischen containern erzeuge in CSS"
+"Zeige mir wie ich die Schriftfarbe der Hauptelemente ändere " (Datei eingefügt)
+"Zeige mir die Grundbefehle für CSS"
+ */
+
+
+
